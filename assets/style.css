@@ -83,6 +83,80 @@ p:nth-child(7):hover {
 p:hover {
   color: #ffffff;
 }
+
+.neon-border-one:hover {
+  -webkit-animation: neon-border-one 1.5s ease-out infinite normal;
+  -moz-animation: neon-border-one 1.5s ease-out infinite normal;
+  animation: neon-border-one 1.5s ease-out infinite normal;
+}
+
+.neon-border-two:hover {
+  -webkit-animation: neon-border-two 1.5s ease-out infinite normal;
+  -moz-animation: neon-border-two 1.5s ease-out infinite normal;
+  animation: neon-border-two 1.5s ease-out infinite normal;
+}
+
+/* Border Tests */
+
+@-webkit-keyframes neon-border-one {
+  from {
+    border: 2px solid #fff
+  }
+  to {
+    border: 2px solid #FF1177 
+  }
+}
+
+@-moz-keyframes neon-border-one {
+  from {
+    border: 2px solid #fff
+  }
+  to {
+    border: 2px solid #FF1177 
+  }
+}
+
+@keyframes neon-border-one {
+  from {
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px 5px #FF1177;
+  }
+  to {
+    border: 2px solid #FF1177;
+    box-shadow: 0px 0px 1px 1px #FFF; 
+  }
+}
+
+@-webkit-keyframes neon-border-two {
+  from {
+    border: 2px solid #fff
+  }
+  to {
+    border: 2px solid #228DFF 
+  }
+}
+
+@-moz-keyframes neon-border-two {
+  from {
+    border: 2px solid #fff
+  }
+  to {
+    border: 2px solid #228DFF 
+  }
+}
+
+@keyframes neon-border-two {
+  from {
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px 5px #228DFF;
+  }
+  to {
+    border: 2px solid #228DFF;
+    box-shadow: 0px 0px 1px 1px #FFF; 
+  }
+}
+
+
 /*glow for webkit*/
 
 @-webkit-keyframes neon1 {
